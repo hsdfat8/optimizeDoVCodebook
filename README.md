@@ -31,7 +31,7 @@ Code:
 |cosC|Hàm tính độ giống nhau giữa các waveform|
 
 ## Mô phỏng
-Mô phỏng trên kênh truyền AMR-WB giữa các mode.
+Mô phỏng trên kênh truyền AMR-WB giữa các mode (Kiểm tra với 2 mode thấp nhất-kém chất lượng nhất).
 Bộ tham số tối ưu cho dataRate = 8000/6 (90 bit ứng với frame 67.5ms giọng nói):
 
 
@@ -40,5 +40,5 @@ Bộ tham số tối ưu cho dataRate = 8000/6 (90 bit ứng với frame 67.5ms 
 |-|-|-|-|-|-|-|
 |8|18|444.44 Hz|222.22 Hz|4|0|8%|
 |8|18|444.44 Hz|222.22 Hz|4|1|0.7%|
-|16|24|333.33 Hz|222.22 Hz|8|0|8%|
-|16|24|333.33 Hz|166.67 Hz|8|1|0.7%|
+|16|24|333.33 Hz|222.22 Hz|8|0|11.5%|
+|16|24|333.33 Hz|166.67 Hz|8|1|1.43%|
