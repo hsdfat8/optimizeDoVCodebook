@@ -29,3 +29,16 @@ Code:
 |mapCodebook| Ánh xạ bit sang dạng sóng|
 |demapCodebook| Ánh xạ dạng sóng về chuỗi bit|
 |cosC|Hàm tính độ giống nhau giữa các waveform|
+
+## Mô phỏng
+Mô phỏng trên kênh truyền AMR-WB giữa các mode.
+Bộ tham số tối ưu cho dataRate = 8000/6 (90 bit ứng với frame 67.5ms giọng nói):
+
+
+
+|m|n|f0|deltaf|q|mode|BER|
+|-|-|-|-|-|-|-|
+|8|18|444.44 Hz|222.22 Hz|4|0|8%|
+|8|18|444.44 Hz|222.22 Hz|4|1|0.7%|
+|16|24|333.33 Hz|222.22 Hz|8|0|8%|
+|16|24|333.33 Hz|166.67 Hz|8|1|0.7%|
